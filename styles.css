@@ -3,6 +3,7 @@
 	color: White;
 	padding-left: 200px;
 	padding-right: 200px;
+	padding-bottom: 50px;
 }
 
 .topheader {
@@ -19,8 +20,9 @@ ul {
 	
 	
 }
-
-li {
-
-
+img {
+	padding-left: 30px;
+}
+.midheader {
+	display: flex;
 }
