@@ -1,0 +1,26 @@
+.header{
+	background: #1F2937;
+	color: White;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.topheader {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	color: white;	
+	text-decoration: none;
+	gap: 9px;
+	
+	
+}
+
+li {
+
+
+}
