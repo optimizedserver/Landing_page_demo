@@ -1,24 +1,31 @@
+
+body {
+	 font-family: 'Roboto', sans-serif;
+}
 .header{
 	background: #1F2937;
 	color: White;
 	
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 50px;
 }
 
 .topheader {
 	display: flex;
 	justify-content: space-between;
-	font-family: hero;
+	font-family: 'Roboto', sans-serif;
 	padding-left: 220px;
 	padding-right: 220px;
 	padding-bottom: 60px;
 }
 
+
+
 ul {
 	display: flex;
 	list-style: none;
 	
-	gap: 9px;
+	gap: 20px;
 	
 	
 }
@@ -33,13 +40,26 @@ a {
 }
 
 p {
-	width: 200px;
-	text-align: 
+	width: 381px;
+	flex: 1;
 }
 img {
 	padding-left: 30px;
 }
 .midheader {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 390px;
+	
+}
+
+button {
+	background: #3882F6;
+	color: white;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: none;
+	border-radius: 7px;
+	flex: 1;
 }
