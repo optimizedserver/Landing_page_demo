@@ -43,9 +43,7 @@ p {
 	width: 381px;
 	flex: 1;
 }
-img {
-	padding-left: 30px;
-}
+
 .midheader {
 	display: flex;
 	justify-content: center;
@@ -62,4 +60,14 @@ button {
 	border: none;
 	border-radius: 7px;
 	flex: 1;
+}
+
+.middle {
+	text-align: center;
+} 
+
+.container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
 }
