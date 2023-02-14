@@ -1,28 +1,45 @@
 .header{
 	background: #1F2937;
 	color: White;
-	padding-left: 200px;
-	padding-right: 200px;
+	
 	padding-bottom: 50px;
 }
 
 .topheader {
 	display: flex;
 	justify-content: space-between;
+	font-family: hero;
+	padding-left: 220px;
+	padding-right: 220px;
+	padding-bottom: 60px;
 }
 
 ul {
 	display: flex;
 	list-style: none;
-	color: white;	
-	text-decoration: none;
+	
 	gap: 9px;
 	
 	
+}
+h1 .text {
+	font-family: hero;
+	font-size: 48px;
+	
+}
+a {
+	color: white;	
+	text-decoration: none;
+}
+
+p {
+	width: 200px;
+	text-align: 
 }
 img {
 	padding-left: 30px;
 }
 .midheader {
 	display: flex;
+	justify-content: space-around;
 }
