@@ -1,9 +1,11 @@
 
 body {
 	 font-family: 'Roboto', sans-serif;
+	margin:0;
 }
 .header{
 	background: #1F2937;
+	margin:0;
 	color: White;
 	
 	font-family: 'Roboto', sans-serif;
@@ -48,6 +50,7 @@ p {
 	display: flex;
 	justify-content: center;
 	gap: 390px;
+	flex: 1;
 	
 }
 
@@ -59,13 +62,17 @@ button {
 	padding-right: 20px;
 	border: none;
 	border-radius: 7px;
-	flex: 1;
+	
 }
 
 .middle {
+	display: flex;
+	flex-direction: column;
 	text-align: center;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 70px;
+	padding-bottom: 130px;
+	justify-content: center;
+	
 	
 } 
 .title {
@@ -83,13 +90,17 @@ button {
 .midimg {
 	
 	border-width: thin;
+	width: 159px;
+	height: 159px;
+	
+	
 
 	
 }
  .midimg img { 
 	 border: 4px solid #3882F6 ;
 	border-radius: 8px;
-	 max-width: 30%;
+	 max-width: 76%;
 height: auto;
 	
 }
@@ -99,12 +110,15 @@ height: auto;
 		padding: 36px;
 	display: flex;
 	flex-direction: column;
+	padding-left: 450px;
+	padding-right: 450px;
 }
 
 .quote {
 	font-size: 36px;
 	font-style: italic; 
-	color: #1F2937;
+	font-weight:lighter;
+	
 	
 }
 
@@ -119,7 +133,15 @@ height: auto;
 	display: flex;
 	color: white;
 	padding: 50px;
-	margin: 36px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: space-around;
+	align-content: center;
+}
+.Utex {
+	font-weight: bold;
 }
 .blue button { 
 	border-style: solid;
